@@ -7,12 +7,12 @@ refs.galleryList.addEventListener('click', onOpenModal);
 refs.modalCloseBtn.addEventListener('click', onCloseModal);
 refs.modalOverlay.addEventListener('click', onBOverlayClick);
 
-var ghpages = require('gh-pages');
-ghpages.publish(
-  'dist',
-  {
-    branch: 'master',
-    repo: 'https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm',
-  },
-  callback,
-);
+// var ghpages = require('gh-pages');
+// ghpages.publish(
+//   'dist',
+//   {
+//     branch: 'gh-pages',
+//     repo: 'https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm',
+//   },
+//   callback,
+// );
