@@ -320,4 +320,4 @@ var e=require("process"),n=require("find-cache-dir"),t=require("./git"),r=requir
 },{"find-cache-dir":"SIpl","./git":"Sepv","filenamify-url":"kSPk","./util":"VCfz","fs-extra":"qdgD","globby":"xfT9","path":"lvxJ","util":"vEwc","process":"Exwq"}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("./js/refs.js"),r=require("./js/open-modal.js"),s=require("./js/close-modal.js");e.refs.galleryList.insertAdjacentHTML("beforeend",e.refs.galleryMarkup),e.refs.galleryList.addEventListener("click",r.onOpenModal),e.refs.modalCloseBtn.addEventListener("click",s.onCloseModal),e.refs.modalOverlay.addEventListener("click",s.onBOverlayClick);var l=require("gh-pages");l.publish("dist",{branch:"gh-pages",repo:"https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm"},callback);
 },{"./js/refs.js":"VyiV","./js/open-modal.js":"n7vg","./js/close-modal.js":"vwdI","gh-pages":"boiq"}]},{},["Focm"], null)
-//# sourceMappingURL=%27/goit-js-hw-08-gallery-npm.git%27/src.29763aca.js.map
+//# sourceMappingURL=%27/goit-js-hw-08-gallery-npm%27/src.29763aca.js.map
