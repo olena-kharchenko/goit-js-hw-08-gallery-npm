@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-hw-08-gallery-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm/issues"
+  },
+  "homepage": "https://github.com/olena-kharchenko/goit-js-hw-08-gallery-npm#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
